@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.anatawa12.forge</groupId>
+  <artifactId>separated</artifactId>
+  <version>1.2-1.0.12</version>
+  <name>separated</name>
+  <description>Gradle plugin for Forge, a separated part because of dependencies</description>
+  <url>https://github.com/anatawa12/ForgeGradle-1.2</url>
+  <licenses>
+    <license>
+      <name>Lesser GNU Public License, Version 2.1</name>
+      <url>https://www.gnu.org/licenses/lgpl-2.1.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>AbrarSyed</id>
+      <name>Abrar Syed</name>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>LexManos</id>
+      <name>Lex Manos</name>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>anatawa12</id>
+      <name>anatawa12</name>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/anatawa12/ForgeGradle-1.2.git</connection>
+    <developerConnection>scm:git:git@github.com:anatawa12/ForgeGradle-1.2.git</developerConnection>
+    <url>https://github.com/anatawa12/ForgeGradle-1.2</url>
+  </scm>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/anatawa12/ForgeGradle-1.2/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.ow2.asm</groupId>
+      <artifactId>asm-debug-all</artifactId>
+      <version>5.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>23.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

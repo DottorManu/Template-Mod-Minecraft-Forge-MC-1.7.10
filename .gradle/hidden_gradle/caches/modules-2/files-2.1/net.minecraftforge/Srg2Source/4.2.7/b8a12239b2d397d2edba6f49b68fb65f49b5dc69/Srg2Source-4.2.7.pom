@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.minecraftforge</groupId>
+  <artifactId>Srg2Source</artifactId>
+  <version>4.2.7</version>
+  <name>Srg2Source</name>
+  <description>Srg2Source library for ForgeGradle</description>
+  <url>https://github.com/MinecraftForge/Srg2Source</url>
+  <licenses>
+    <license>
+      <name>The BSD 3-Clause License</name>
+      <url>http://opensource.org/licenses/BSD-3-Clause</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>agaricusb</id>
+      <name>Agaricusb</name>
+    </developer>
+    <developer>
+      <id>LexManos</id>
+      <name>Lex Manos</name>
+    </developer>
+    <developer>
+      <id>AbrarSyed</id>
+      <name>Abrar Syed</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/MinecraftForge/Srg2Source.git</connection>
+    <developerConnection>scm:git:git@github.com:MinecraftForge/Srg2Source.git</developerConnection>
+    <url>https://github.com/MinecraftForge/Srg2Source</url>
+  </scm>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/MinecraftForge/Srg2Source/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.ow2.asm</groupId>
+      <artifactId>asm</artifactId>
+      <version>6.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.ow2.asm</groupId>
+      <artifactId>asm-tree</artifactId>
+      <version>6.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>26.0-jre</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>de.siegmar</groupId>
+      <artifactId>fastcsv</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.sf.jopt-simple</groupId>
+      <artifactId>jopt-simple</artifactId>
+      <version>5.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jdt</groupId>
+      <artifactId>org.eclipse.jdt.core</artifactId>
+      <version>3.14.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

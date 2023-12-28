@@ -1,0 +1,28 @@
+name: build.yml
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Code Checkout
+      uses: actions/checkout@v4.1.1
+
+    - name: Setup JDK 8 temurin
+      uses: actions/setup-java@v4.0.0
+      with:
+        java-version: '8'
+        distribution: 'temurin'
+
+    - name: run custom command (./gradlew build)
+      run: |
+        ./gradlew build
+
+    - name: Artifacts Upload
+      uses: actions/upload-artifact@v4.0.0
+      with:
+        name: build.zip
+        path: ./build
